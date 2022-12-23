@@ -1,0 +1,985 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@font-face {
+    font-family: 'ZCOOL XiaoWei';
+    src: url("fonts/ZCOOLXiaoWei-Regular.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+  
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+  
+:focus,
+:active {
+    outline: none;
+  }
+  
+a:focus,
+a:active {
+    outline: none;
+  }
+  
+  
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    line-height: 30px;
+    font-size: 20px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background: #F7F2EE;
+  }
+  
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+  }
+  
+  input::-ms-clear {
+    display: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  
+  a,
+  a:visited {
+    text-decoration: none;
+    color: #404242
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: 400;
+  }
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* 1 cекция----------------------------------------------------- */
+.sec-1 {
+    background-color: #F6F2EE;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+    align-items: center;
+}
+.navbar-list {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.navbar-list1 {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+ul li {
+    margin-right: 5%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+.search {
+    width: 20px;
+}
+.search img {
+    width: 100%;
+    padding-top: 60%;
+}
+.burger {
+    width: 27px;
+}
+.burger img {
+    width: 100%;
+}
+.logo {
+    width: 65px;
+}
+.logo img {
+    width: 100%;
+}
+.flex1 {
+    display: flex;
+    margin-top: 10%;
+    width: 100%;
+}
+.flex1 h1 {
+    font-family: 'ZCOOL XiaoWei';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 70px;
+    align-items: center;
+    margin-bottom: 5%;
+    padding-top: 15%;
+}
+.flex1 p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    width: 80%;
+    margin-bottom: 12%;
+
+}
+.flex-btn {
+    display: flex;
+}
+.btn1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #232020;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    width: 21%;
+    height: 41px;
+    margin-right: 10%;
+}
+.btn2 {
+    filter: drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.25));
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+    width: 21%;
+    height: 41px;
+    border: 2px solid #D48A5C;
+    background-image: none; 
+    background: transparent;
+    background-color: transparent;
+}
+.flex2 {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 10%;
+}
+.kartochka {
+    width: 300px;
+}
+.kartochka img {
+    width: 100%;
+}
+/* 2 секция-------------------------------- */
+.sec-2 {
+    margin: 0 auto;
+    background-image: url(img/coffee-beans-top-view-white-background-space-text\ 1.png);
+    height: 760px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.block-text2 {
+    padding-top: 271px;
+    align-items: center;
+    margin: 0 auto;
+}
+.block-text2 h2{
+    font-family: 'ZCOOL XiaoWei';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 65px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-bottom: 2%;
+    animation: animate 4s infinite;
+}
+@keyframes animate{
+    0%{
+        color: rgb(106, 84, 13);
+    }
+    20%{
+        color:rgb(132, 107, 26);
+    }
+    40%{
+      color:rgb(99, 135, 22);
+    }
+    60%{
+      color:rgb(131, 117, 6);
+    }
+    80%{
+      color:rgb(161, 149, 36);
+    }
+    90%{
+      color:rgb(168, 171, 59);
+    }
+    100%{
+      color:rgb(216, 194, 67);
+    }
+  }
+.block-text2 p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #141313;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+.btnblock {
+    margin-right: 0%;
+    text-align: center;
+}
+.btnblock button{
+    margin-right: 0%;
+}
+/* 3 секция--------------------------------------------------------- */
+.block-img {
+    margin: 0 auto;
+    width: 165px;
+    margin-top: 10%;
+}
+.block-img img {
+    width: 100%;
+}
+.hh {
+    text-align: center;
+    font-family: 'ZCOOL XiaoWei';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 65px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #232020;
+    margin-bottom: 10%;
+}
+.flex3 {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+    margin-bottom: 10%;
+}
+.krug {
+    width: 160px;
+}
+.krug img {
+    width: 100%;
+}
+.flex4 {
+    display: flex;
+    margin-bottom: 10%;
+}
+.flex5 {
+    display: flex;
+    margin-bottom: 10%;
+}
+.flex6 {
+    display: flex;
+}
+.flex7 {
+    display: flex;
+    margin-bottom: 10%;
+}
+.flex8 {
+    display: flex;
+    margin-bottom: 10%;
+}
+.flex9 {
+    display: flex;
+}
+.flex3 p {
+    font-family: 'ZCOOL XiaoWei';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #232020;
+    margin-left: 2%;
+    padding-top: 12%;
+}
+.block1, .block2 {
+    width: 45%;
+}
+/* 4 секция---------------------------------------------------------------- */
+.sec-4 {
+    background-color: #FFFFFF;
+}
+.flex10 {
+    display: flex;
+}
+.block-text3 {
+    margin-top: 10%;
+    width: 70%;
+}
+.block-text3 h1 {
+    font-family: 'ZCOOL XiaoWei';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 65px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #1C1A1A;
+}
+.not-bold {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #6F6F6F;
+    margin-top: 5%;
+}
+.bold {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #141313;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.tea {
+    max-width: 380px;
+}
+.tea img {
+    width: 100%;
+}
+/* 5 секция--------------------------------------------------------- */
+.flex11 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.flex12 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+.flex11 h2 {
+    font-family: 'ZCOOL XiaoWei';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #1C1A1A;
+}
+.img1 {
+    width: 220px;
+    margin-top: 2%;
+}
+.img1 img {
+    width: 100%;
+}
+.img2 {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 6%;
+    height: 267px;
+}
+.img2 img {
+    width: 100%;
+}
+.kartochka1 {
+    width: 350px;
+    border-radius: 3px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.rating {
+    width: 155px;
+}
+.rating img {
+    width: 100%;
+    margin-left: 16%;
+    margin-top: 11%;
+}
+.product {
+    font-family: 'ZCOOL XiaoWei';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 65px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #1C1A1A;
+    margin-left: 7%;
+}
+.price {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1C1A1A;
+    margin-left: 8%;
+    margin-bottom: 5%;
+}
+/* 6 секция-------------------------------------------------------- */
+.block-text4 h1 {
+    font-family: 'ZCOOL XiaoWei';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #1C1A1A;
+    margin-bottom: 3%;
+}
+.opisanie {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #5C5C5C;
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 5%;
+}
+.kruzhok {
+    width: 76px;
+    margin: 0 auto;
+}
+.kruzhok img {
+    width: 100%;
+}
+.name {
+    text-align: center;
+    font-family: 'ZCOOL XiaoWei';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 65px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #1C1A1A;
+    margin-bottom: 5%;
+}
+.flex13 {
+    display: flex;
+    background-color: #FFFFFF;
+}
+.map {
+    width: 587px;
+}
+.map img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.map img:hover {
+    transform: scale(1.05);
+}
+.block3 {
+    width: 46%;
+}
+.block3 p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #D58A5C;
+    margin-top: 7%;
+}
+.block3 h2 {
+    font-family: 'ZCOOL XiaoWei';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #1C1A1A;
+
+}
+.form1 {
+    text-align: center;
+}
+.btn3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+.btn3 button {
+    background: #232020;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    display: flex;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.25));
+    width: 30%;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.form1 input {
+    width: 65%;
+    height: 50px;
+    margin-bottom: 3%;
+    background: #F4F1EE;
+    padding-left: 3%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #5C5C5C;
+}
+/* 7 секция--------------------------------------------- */
+.sec-7 {
+    background-color: #FFFFFF;
+}
+.flex14 {
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+    padding-top: 10%;
+}
+.flex15 {
+    display: flex;
+}
+.flex16 {
+    display: flex;
+}
+.flex15 p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    width: 210px;
+    margin-left: 5%;
+}
+.flex16 p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    margin-left: 3%;
+    width: 200px;
+}
+.form2 input {
+    width: 200px;
+    background: #F4F1EE;
+    padding-left: 3%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #5C5C5C;
+    height: 100%;
+}
+.flex17 {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    justify-content: space-between;
+}
+.block-text5 p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #848484;
+    width: 53%;
+}
+.social {
+    width: 180px;
+}
+.social img {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 34%;
+}
+.flex14 .burger {
+    display: none;
+}
+
+.heart img {
+    transition: 0.5s;
+}
+.heart img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width:1100px) {
+    .container {
+        max-width: 870px;
+    }
+    .btn1 {
+        line-height: 19px;
+    }
+    .btn2 {
+        line-height: 18px;
+    }
+    .flex2 {
+        flex-wrap: wrap;
+    }
+    .kartochka {
+        width: 435px;
+        margin-bottom: 2%;
+    }
+    .flex11 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .flex11 h2 {
+        justify-content: center ;
+    }
+    .flex12 {
+        flex-wrap: wrap;
+        justify-content: center ;
+    }
+    .kartochka1 {
+        margin-bottom: 3%;
+        width: 430px;
+    }
+    .btn3 button {
+        width: 36%;
+    }
+    .heart {
+        width: 477px;
+    }
+    .heart img {
+        width: 100%;
+    }
+    .block-text {
+        width: 60%;
+    }
+    .flex11 h2 {
+        width: 100%;
+    }
+}
+
+@media (max-width:880px) {
+    .container {
+        max-width: none;
+    }
+    .flex1 {
+        flex-wrap: wrap;
+    }
+    .flex1 h1 {
+        text-align: center;
+        padding-top: 3%;
+    }
+    .flex1 p {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 7%;
+    }
+    .flex-btn {
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+    .heart {
+        display: block;
+        margin: 0 auto;
+    }
+    .navbar-list, .logo, .navbar-list1, .search {
+        display: none;
+    }
+    .burger {
+        width: 60px;
+        display: block;
+        margin: 0 auto;
+    }
+    .flex10 {
+        flex-wrap: wrap;
+    }
+    .block-text {
+        margin: 0 auto;
+    }
+    .block-text3 {
+        margin: 0 auto;
+    }
+    .block-text3 h1 {
+        text-align: center;
+        margin-top: 7%;
+    }
+    .not-bold, .bold {
+        text-align: center;
+    }
+    .btn1 {
+        text-align: center;
+        margin-right: 0%;
+    }
+    .btnn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tea {
+        margin: 0 auto;
+    }
+    .btn2 {
+        margin-left: 3%;
+    }
+    .flex13{
+        flex-wrap: wrap;
+    }
+    .map {
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+    .block3 {
+        margin: 0 auto;
+        width: 71%;
+    }
+    .btn3 button {
+        margin-bottom: 7%;
+    }
+    .flex14 .burger {
+        display: block;
+    }
+    .flex15, .flex16, .form2 {
+        display: none;
+    }
+    .flex14 {
+        padding-top: 6%;
+    }
+    .block-text5 {
+        display: none;
+    }
+    .social {
+        display: none;
+    }
+    .flex3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .block1, .block2 {
+        width: 440px;
+    }
+    .flex4, .flex5, .flex6, .flex7, .flex8, .flex9 {
+        flex-wrap: wrap;
+    }
+    .flex6 {
+        margin-bottom: 10%;
+    }
+    .flex4 p, .flex5 p, .flex6 p, .flex7 p, .flex8 p, .flex9 p {
+        width: 100%;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .krug {
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+    }
+    .btn1 {
+        width: 140px;
+    }
+    .block-text2 {
+        padding-top: 271px;
+    }
+    .block-text3  h1 {
+        font-size: 46px;
+        line-height: 56px;
+    }
+    .rating img {
+        margin-left: 40%;
+    }
+    .product {
+        text-align: center;
+        margin-left: 0%;
+    }
+    .price {
+        text-align: center;
+        margin-left: 0%;
+    }
+}
+@media (max-width:610px) {
+    .map {
+        width: 400px;
+    }
+    .block3 {
+        width: 68%;
+    }
+    .block-text2 {
+        padding-top: 271px;
+    }
+    .block-text2 h2 {
+        font-size: 47px;
+        line-height: 56px;
+    }
+    .flex11 h2 {
+        font-size: 46px;
+    }
+}
+@media (max-width:470px) {
+    .block-text2 h2 {
+        font-size: 36px;
+    }
+    .block-text2 p {
+        width: 100%;
+    }
+    .block-text2 p {
+        font-size: 16px;
+    }
+    .flex1 h1 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .hh {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .tea {
+        max-width: 300px;
+    }
+    .kartochka {
+        width: 370px;
+    }
+    .kartochka1 {
+        width: 370px;
+    }
+    .block-text3 h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .btn3 button {
+        height: 50px;
+    }
+    .block3 h2 {
+        font-size: 20px;
+        line-height: 39px;
+    }
+}
+@media (max-width:390px) {
+    .flex1 h1 {
+        font-size: 24px;
+        line-height: 37px;
+    }
+    .btn2 {
+        width: 50%;
+    }
+    .flex1 p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .kartochka1 {
+        width: 300px;
+    }
+    .img2 {
+        width: 266px;
+    }
+    .rating img {
+        margin-left: 13%;
+    }
+    .block-text4 h1 {
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .btn3 button {
+        height: 50px;
+    }
+    .block3 h2 {
+        font-size: 20px;
+        line-height: 39px;
+    }
+}
